@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Acme');
+
+body{
+  background-color: #171B1A;
+  font-family: 'Acme', sans-serif;
+}
+.header{
+  background-color: #24c18a;
+  padding: 20px;
+  margin-top: 50px;
+  color: white;
+  border-radius: 10px;
+}
+.btn{
+  background-color: #c4033d;
+  color: white;
+  font-size: 16px;
+}
+.form-control{
+  font-size: 16px;
+}
+.tachar {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+#listaTareas{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#listaTareas li {
+  background-color: white;
+  color: black;
+  box-sizing: border-box;
+  padding: 15px 20px;
+  margin: 5px 0px;
+  border: 2px solid white;
+  border-radius: 10px;
+  font-size: 18px
+}
+
+.eliminarLi{
+  float: right;
+  color: crimson;
+  cursor: pointer;
+}
+
+input[type=checkbox]{
+  margin-right: 15px;
+}
